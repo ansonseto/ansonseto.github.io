@@ -1,0 +1,115 @@
+*{
+  font-family: Times;
+ 
+  padding:0;
+}
+
+body{
+  background-image: url('/img/marble.jpg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+nav{
+  position: sticky;
+  position: -webkit-sticky; /*safari*/
+  top: 0;
+}
+
+.navbar-brand{
+  font-size: 50px;
+  font-family: 'Sofia';
+}
+
+.nav-link{
+  font-family: 'Sofia';
+}
+
+h1{
+  font-family: 'Sofia';
+  font-weight: bold;
+}
+
+.discoverbutton{
+  color: #8a8a8a;
+  font-weight: bold;
+  font-size: 15pt;
+  padding: 6px;
+  font-family: 'Sofia';
+}
+
+a.discoverbutton:hover{
+  color: #6e6e6e;
+  font-weight: bold;
+  font-size: 15pt;
+  padding: 6px;
+}
+
+#firstSec{
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+img.profilePic{
+  /*filter: drop-shadow(10px 10px 10px 10px lightgrey);*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.bullPoint{
+  list-style-type: none;
+}
+
+ .bullPoint li:before{
+  content: '';   
+  display: inline-block;   
+  height: 30px;   
+  width: 30px;    
+  background-size: 30px;   
+  background-image: url("/img/bulletpoint.png");   
+  background-repeat: no-repeat;   
+  margin-right: 10px;
+  background-position: center center;
+  vertical-align: middle;
+  /*list-style-type: square;
+  list-style-image: url(/img/bulletpoint.png);
+  list-style-position: inside;*/
+}
+
+footer{
+  clear: both;
+  background-color: #737373;
+  color: white;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.footerimg{
+  float: right;
+  margin-right: 10px;
+}
+
+.column {
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 10%;  
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+

@@ -1,0 +1,117 @@
+*{
+  font-family: Times;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('/img/marble.jpg');
+  height: 100%;
+  width: 100%;
+  margin:0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+  position: fixed;
+}
+
+.navbar-brand{
+  font-size: 50px;
+  font-family: 'Sofia';
+}
+
+.nav-link, figcaption{
+  font-family: 'Sofia';
+}
+
+h1, h4{
+  font-family: 'Sofia';
+  text-align: left;
+  font-weight: bold;
+}
+
+h1{
+  margin-left: 15%;
+}
+
+.profilepic{
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 10%;
+}
+
+.slidepic{
+  /*margin-left: auto;
+  margin-right: auto;*/
+  /*filter: drop-shadow(8px 8px 8px lightgrey);*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.aboutme {
+  text-align: center;
+}
+
+.bodyPara{
+  text-align: justify;
+}
+
+.travelLink{
+  font-family: 'Sofia';
+  font-size: 20px;
+}
+
+[data-component="slideshow"] .slide {
+  display: none;
+  text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+  display: block;
+}
+
+a.travelLink{
+  color: #8a8a8a;
+}
+
+a.travelLink:hover{
+  color: #6e6e6e;
+}
+
+#footer{
+  clear: both;
+  background-color: #737373;
+  color: white;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.footerimg{
+  float: right;
+  margin-right: 10px;
+}
+
+
+.column {
+  margin-left: 5%;
+  margin-right: 5%;  
+}
+
+@media screen and (max-width: 650px) {
+  .column, {
+    width: 100%;
+    display: block;
+  }
+}
